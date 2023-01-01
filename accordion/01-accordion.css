@@ -1,0 +1,67 @@
+/*
+  SPACING SYSTEM (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+  FONT SIZE SYSTEM (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+/*
+  Heroicons
+*/
+/*
+  MAIN COlOR: #087f5b
+  SECONDARY COLOR:#343a40
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  padding: 50px;
+}
+
+.accordion {
+  width: 700px;
+  box-shadow: 0 10px 10px 0px #efefef;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.list {
+  margin-top: 20px;
+}
+.title,
+.number {
+  font-size: 24px;
+  font-weight: 500;
+}
+.item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+.item-container {
+  padding: 0 30px;
+  grid-column: 2;
+}
+.icon {
+  width: 24px;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.list {
+  line-height: 2;
+  color: #888888;
+}
+.hidden {
+  display: none;
+}
+.active {
+  color: #087f5b;
+  stroke: #087f5b;
+  border-top: 3px solid #087f5b;
+}
