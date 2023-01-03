@@ -68,7 +68,9 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.active {
+
+.number-box.active,
+.number-box.active .number {
   background-color: #087f5b;
   color: #fff;
 }
