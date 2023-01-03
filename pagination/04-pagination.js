@@ -72,7 +72,6 @@ pagination.addEventListener("click", (event) => {
     updateButton(curNumber);
     curMin = maxNumber - curNumber + 1;
     updateRow(curMin);
-    return;
   }
 });
 const updateButton = function (position) {
